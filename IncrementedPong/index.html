@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pongfinity</title>
+		<style>
+			#MainCanvas{
+				position: absolute; background:#000;
+				border:9px solid #c3c3c3;
+				cursor: none;
+				left: 50%;
+				transform: translate(-50%, 0);
+				box-shadow: 0px 0px 20px black;
+			}
+			#Name{
+				position:absolute;
+				left:20px;bottom:43px;width:200px;
+			}
+			#Submit{
+				position:absolute;
+				left:20px;bottom:20px;
+			}
+			#Board{
+				position:absolute;
+				left:20px;top:20px;width:200px;height:500px;
+			}
+		</style>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+	<body>
+		<div id="Board"></div>
+		<input type="text" id="Name"></input>
+		<input type="submit" id="Submit" onClick="Upload()"></input>
+		<canvas id="MainCanvas" width=800px height=600px></canvas>
+	</body>
+	<script src="gamemecha.js"></script>
+</html>
