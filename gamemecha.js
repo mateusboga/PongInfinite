@@ -9,7 +9,7 @@ var Upload;
 /*dimensions*/ var width = 800, height = 600;
 /*paddle*/ var paddleX = 0, mouse = {};
 	var ballX = width/2, ballY = 150, ballYSpeed = 2, ballXSpeed = 1;
-	var score = 0, highscore = 0, prevscore = 0, scoreString = "Score: 0",highscoreString = "Highscore: "+highscore;
+	var score = 0, highscore = 0, prevscore = 0, scoreString = "Score: 0",highscoreString = "Highscore: 0";
 	var light = false, auto = 0;
 	var S_Poc = new Audio("sounds/poc.wav"), S_Puc = new Audio("sounds/puc.wav"), S_Puc1 = new Audio("sounds/pucR.wav"), S_Puc2 = new Audio("sounds/pucL.wav");
 
